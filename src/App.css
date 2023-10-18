@@ -1,0 +1,122 @@
+
+body{
+  background-color: rgb(34, 31, 31);
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  height: 90px;
+  text-align: center;
+  color: yellow;
+  text-decoration: none;
+  margin-top: 0;
+  padding: 10px;
+  background-image: linear-gradient(90deg,rgb(100, 98, 11) 1%, rgb(5, 3, 14) 99%);
+}
+
+
+.filtre-movie{
+  box-shadow: 0 0 1px 1px yellow;
+  padding: 10px;
+  margin: 10px;
+  color: azure;
+  background-color: rgb(4, 4, 112);
+}
+
+.filtre-movie h2{
+  text-align: center;
+  color: rgb(228, 250, 183);
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+}
+
+
+.body{
+  display: flex;
+  width: 100vw;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 0 1px 2px white;
+  
+}
+
+
+.add-movie{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 300px;
+  height: 340px;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: rgb(85, 77, 68);
+  border-radius: 10px;
+  box-shadow: 0 0 1px 1px yellowgreen;
+  flex: 1;
+}
+
+.moviecard{
+  width: 300px;
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  background-color: rgb(30, 6, 116);
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 0 1px 1px whitesmoke;
+
+} 
+
+.moviecard:hover {
+  opacity: 0.8;
+  transform: rotateX(5deg);
+  transform: rotateZ(4deg);
+}
+.img-poster{
+  height: 230px;
+  width: auto;
+  box-shadow: 0 0 4px 4px black;
+}
+.all-movies{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer{
+  text-align: center;
+  color: blueviolet;
+  background-color: rgb(44, 32, 32);
+}
+
+.inputfilter{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(6, 100, 100);
+}
+
+.card-filter{
+  background-color:  rgb(34, 31, 31);
+}
+
+.description{
+  display: flex;
+  box-shadow: 0 0 1px 2px wheat;
+  flex-direction: column;
+}
